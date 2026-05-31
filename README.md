@@ -80,6 +80,24 @@ URL del Dashboard:
 http://127.0.0.1:8050
 ```
 
+## Despliegue en Render
+
+El proyecto incluye `app.py` y `render.yaml` para desplegar API y Dashboard como un solo servicio web en Render.
+
+Configuración esperada:
+
+```text
+Build Command: pip install -r requirements.txt
+Start Command: gunicorn app:server
+```
+
+Al desplegarse, Render asignará una URL pública. En esa misma URL estarán disponibles:
+
+```text
+/           Dashboard
+/sensores   API REST
+```
+
 ## Endpoints de la API
 
 | Método | Ruta | Descripción |

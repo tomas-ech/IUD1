@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: iud1-dashboard
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:server
+    plan: free
