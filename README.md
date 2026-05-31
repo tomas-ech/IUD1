@@ -98,6 +98,12 @@ Al desplegarse, Render asignará una URL pública. En esa misma URL estarán dis
 /sensores   API REST
 ```
 
+URL desplegada:
+
+```text
+https://iud1-dashboard.onrender.com/
+```
+
 ## Endpoints de la API
 
 | Método | Ruta | Descripción |
