@@ -1,0 +1,50 @@
+[
+  {
+    "nombre": "Sensor Temperatura Actualizado",
+    "tipo": "temperatura",
+    "valor": 26.4,
+    "unidad": "C",
+    "ubicacion": "Laboratorio",
+    "id": 1
+  },
+  {
+    "id": 3,
+    "nombre": "Sensor Presion 1",
+    "tipo": "presion",
+    "valor": 101.3,
+    "unidad": "kPa",
+    "ubicacion": "Banco de pruebas"
+  },
+  {
+    "id": 4,
+    "nombre": "Sensor Vibracion 1",
+    "tipo": "vibracion",
+    "valor": 12.7,
+    "unidad": "mm/s",
+    "ubicacion": "Motor principal"
+  },
+  {
+    "nombre": "Sensor Corriente 1",
+    "tipo": "corriente",
+    "valor": 4.8,
+    "unidad": "A",
+    "ubicacion": "Tablero electrico",
+    "id": 5
+  },
+  {
+    "nombre": "Sensor Humedad 1",
+    "tipo": "humedad",
+    "valor": 58.2,
+    "unidad": "%",
+    "ubicacion": "Laboratorio",
+    "id": 6
+  },
+  {
+    "nombre": "Sensor Integracion 1",
+    "tipo": "integracion",
+    "valor": 77.7,
+    "unidad": "u",
+    "ubicacion": "Prueba E2E",
+    "id": 7
+  }
+]
